@@ -1,0 +1,80 @@
+figure {
+	margin: 0;
+}
+
+.wpme-logo {
+	position: relative;
+}
+
+.wpme-cta a {
+	color: var(--wpme-font-highlight-color)!important;
+}
+
+.wpme-url::before {
+	margin-right: .5em;
+	content: "↳";
+}
+
+.wpme-url {
+	display: flex;
+	margin-left: calc(20% + 2em);
+	padding: .5em .5em .5em 0;
+}
+
+.wpme-url__input {
+	margin: 0 0 0 .5em;
+	padding: 0 .5em;
+	border: 1px solid hsl(0, 0%, 50%);
+	border-radius: 3px;
+}
+
+.wpme-cta .editor-url-input__button {
+    align-self: center;
+}
+
+.wpme-cta form.editor-url-input__button-modal {
+    position: absolute;
+}
+
+.wpme-dropdown {
+	display: inline-block;
+	margin-left: .5em;
+	align-self: center;
+}
+
+.wpme-dropdown .components-button:active:enabled {
+	vertical-align: inherit;
+}
+
+.wpme-dropdown__input {
+	padding: 8px 8px 0;
+}
+
+.wpme-expanded .editor-rich-text__inline-toolbar {
+	justify-content: start;
+}
+
+.wpme-block.alignright iframe{
+  display:inline;
+  float: right;
+}
+
+.wpme-block.alignleft {
+  float: left;
+  align-content: left;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25% !important;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 300px;
+    min-height: 200px;
+    border: 0;
+    clear: both;
+}

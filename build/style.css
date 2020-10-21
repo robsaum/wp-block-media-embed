@@ -1,0 +1,40 @@
+.wpme-logo img,
+.wpme-img img {
+  margin-top: -20px;
+  width:100px;
+  height:100px
+}
+
+.wpme-cta {
+  display: flex;
+  font-weight: normal;
+}
+
+.block-editor-url-input__button {
+  margin-top: 15px !important;
+  margin-left: 10px;
+}
+
+.wpme-block.alignright iframe{
+  display:block;
+  margin: auto;
+  grid-column: span 5;
+  float: right;
+}
+
+.wpme-block.alignleft iframe{
+  display:block;
+  margin: auto;
+  grid-column: span 5;
+  float: left;
+}
+
+.wpme-block.aligncenter  iframe{
+  text-align: center;
+  display:block;
+  margin-left: auto !important;   /* Automatic margin from left */ 
+  margin-right: auto !important; /* Automatic margin from right */ 
+  margin: auto;
+  grid-column: span 5;
+}
+
