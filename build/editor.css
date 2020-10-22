@@ -6,6 +6,9 @@ figure {
 	position: relative;
 }
 
+.wpme-cta {
+	clear: both;
+}
 .wpme-cta a {
 	color: var(--wpme-font-highlight-color)!important;
 }
@@ -76,5 +79,26 @@ figure {
     min-width: 300px;
     min-height: 200px;
     border: 0;
-    clear: both;
+    clear: both !important;
+    margin: auto;
+}
+
+.wp-block-embed iframe {
+	clear: both;
+    display: block;
+    height: auto;
+}
+
+
+.wpme-block {
+	clear: both;
+    overflow: visible;
+    height: auto;
+    display: block;
+    top:0px;
+    z-index:997;
+}
+
+.wp-block-embed-piktochart {
+	margin-bottom: 40% !important;
 }

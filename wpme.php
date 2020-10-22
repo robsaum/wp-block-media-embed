@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Plugin Name: WP Block GDPR YouTube Player Embed
- * Description: Custom block plugin from creating a GDPR compliant YouTube embed player".
+ * Plugin Name: WP Block Media Embed
+ * Description: Custom block plugin from creating a GDPR compliant YouTube embed player and other media elements".
  * Version: 1.0.0
  * Author: Rob Saum
  * Author URI: https://www.robsaum.com
@@ -90,7 +90,8 @@ function wpme_register_blocks() {
 
 	// Array of block created in this plugin.
 	$blocks = [
-		'wpme/extended'
+		'wpme/youtube',
+		'wpme/piktochart'
 	];
 	
 	// Loop through $blocks and register each block with the same script and styles.
